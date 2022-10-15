@@ -1,0 +1,13 @@
+How to encrypt an (unencrypted) EC2 EBS volume of a deployed/running EC2 instance
+
+How to encrypt an (unencrypted) EC2 EBS volume of a deployed/running EC2 instance
+•	Locate the EC2 instances & copy device name
+•	Create a snapshot of the EBS volume
+•	Copy snapshot (unencrypted) to an encrypted copy
+•	Create an EBS volume from the encrypted snapshot, in the same availability zone 
+•	Stop the EC2 instance
+•	Detach existing volume
+•	Attach the new volume with the copied device name
+•	Delete the unencrypted EBS Volume
+•	Restart the EC2 instance
+
